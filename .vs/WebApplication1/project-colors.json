@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "8169fedb-36e4-474a-9c7e-746fbe92fa9c": {
+      "ProjectGuid": "8169fedb-36e4-474a-9c7e-746fbe92fa9c",
+      "DisplayName": "WebApplication1",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Прочие файлы",
+      "ColorIndex": -1
+    },
+    "f3b7b8e5-d741-4f63-add3-508af25babcc": {
+      "ProjectGuid": "f3b7b8e5-d741-4f63-add3-508af25babcc",
+      "DisplayName": "Common",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
