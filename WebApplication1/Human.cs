@@ -13,5 +13,7 @@
         public int Height { get; set; }
         public int Weight { get; set; }
         public IPhone? Phone { get; set; }
+        public Guid? HouseId { get; set; }
+        public House House { get; set; }
     }
 }

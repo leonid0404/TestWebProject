@@ -8,7 +8,7 @@ namespace WebApplication1.Interfaces
         IEnumerable<HumanViewModel> GetAll();
         HumanViewModel Get(Guid id);
         void Create(HumanIncomeModel human);
-        void Update(Guid id, Human human);
+        void Update(Guid id, HumanIncomeModel humanIncomeModel);
         void Remove(Guid id);
     }
 }

@@ -22,10 +22,12 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IPeopleService, PeopleService>();
 builder.Services.AddScoped<IIPhoneService, IPhoneService>();
 builder.Services.AddScoped<IAnimalsService, AnimalsService>();
+builder.Services.AddScoped<IHouseService, HouseService>();
 
 builder.Services.AddTransient<IPeopleRepository, PeopleRepository>();
 builder.Services.AddTransient<IIPhoneRepository, IPhoneRepository>();
 builder.Services.AddTransient<IAnimalsRepository, AnimalsRepository>();
+builder.Services.AddTransient<IHouseRepository, HouseRepository>();
 
 var app = builder.Build();
 

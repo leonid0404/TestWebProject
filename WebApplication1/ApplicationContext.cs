@@ -4,6 +4,7 @@ namespace WebApplication1
 {
     public class ApplicationContext : DbContext
     {
+        public DbSet<House> Houses { get; set; } = null!;
         public DbSet<Animal> Animals { get; set; } = null!;
 
         public DbSet<Human> People { get; set; } = null!;

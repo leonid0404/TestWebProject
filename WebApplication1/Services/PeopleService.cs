@@ -49,7 +49,7 @@ namespace WebApplication1.Services
             _peopleRepository.Add(entity);
             _peopleRepository.SaveChanges();
         }
-        public void Update(Guid id, Human human)
+        public void Update(Guid id, HumanIncomeModel human)
         {
             var entity = _peopleRepository.Get(id);
             if (entity != null)

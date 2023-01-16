@@ -41,7 +41,7 @@ namespace WebApplication1.Controllers
 
         // PUT api/<PeopleController>/5
         [HttpPut("{id}")]
-        public void Put(Guid id, [FromBody] Human human)
+        public void Put(Guid id, [FromBody] HumanIncomeModel human)
         {
             _peopleService.Update(id, human);
         }
